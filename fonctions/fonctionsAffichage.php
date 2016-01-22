@@ -11,7 +11,7 @@
 /**
 * Fonction ajoutant les personnes données dans le tableau dans une liste déroulante
 *
-* @param $tab La liste des personnes à ajouter dans la liste déroulante
+* @param $tab Array La liste des personnes à ajouter dans la liste déroulante
 */
 
 function afficherListeDeroulantePersonne($tab){
@@ -24,7 +24,7 @@ function afficherListeDeroulantePersonne($tab){
 /**
 * Fonction ajoutant les valeurs données dans le tableau dans une liste déroulante
 *
-* @param $tab La liste des valeurs à ajouter dans la liste déroulante
+* @param $tab Array La liste des valeurs à ajouter dans la liste déroulante
 */
 function afficherListeDeroulanteSimple($tab){
     foreach($tab as $infos){
