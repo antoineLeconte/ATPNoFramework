@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: KoopaAilay
- * Date: 22/01/2016
- * Time: 10:19
- */
 
 include "fonctions/fonctionsPDO.php";
 include "fonctions/fonctionsAffichage.php";
@@ -22,7 +16,7 @@ $listeJoueurs = executerRequete($bdd, $req, Array());
 <html>
     <head>
         <title>Classement ATP : Liste des joueurs</title>
-        <link rel="stylesheet" type="text/css" href="listeJoueur.css" />
+        <link rel="stylesheet" type="text/css" href="css/listeJoueur.css" />
         <meta charset="utf-8" />
     </head>
     <body>
